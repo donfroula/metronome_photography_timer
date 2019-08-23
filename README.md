@@ -7,7 +7,7 @@ The timer is started by pressing the start button, then releasing. It starts cou
 
 15 seconds before the three minute mark, the timer gives a warning beep and longer LED flash every second until sounding the alarm at the three minute mark. The timer may be stopped and reset at any time by depressing the button again.
 
-The time may be powered by a common CR2032 lithium cell. The device enters a ultra-low power sleep mode when not running. The battery will last for months of normal use. No on/off switch is required.
+The timer may be powered by a common CR2032 lithium cell. The device enters a ultra-low power sleep mode when not running. The battery will last for months of normal use. No on/off switch is required.
 
 Since the timer uses the initially inaccurate internal oscillator, the unit should be calibrated by timing out the full three minutes using another time source, then adjusting the "OSCCAL -= 4;" statement on line 21 up or down until the three minute period is correct, reprogramming the ATTINY85 after each adjustment.
 
